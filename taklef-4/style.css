@@ -1,0 +1,52 @@
+/* ال Div طوله وعرضه هو 400px
+قم بوضع الصورة الموجودة في بداية التكليفات خلفية للعنصر
+في Shape 1 قم بجعل الخلفية تملأ 80% من الطول والعرض الخاص بالعنصر
+في Shape 2 قم بعمل الشكل مثل الصورة
+في Shape 3 قم بعمل الشكل مثل الصورة
+في Shape 4 قم بجعل الخلفية تأخذ 50% من طول وعرض العنصر وقم بتغيير مكانها */
+
+
+
+.assign-4-shape-1
+{
+    width: 400px;
+    height: 400px;
+    background-size: 80% ;
+    background-image: url(css-assignment-5-8.png);
+    background-repeat: no-repeat;
+
+
+}
+.assign-4-shape-2
+{
+    width: 400px;
+    height: 400px;
+    background-size: 80% 80%;
+    background-image: url(css-assignment-5-8.png);
+    background-position: right;
+    background-repeat: no-repeat;
+
+
+}
+.assign-4-shape-3
+{
+    width: 400px;
+    height: 400px;
+    background-size: 80% 80%;
+    background-image: url(css-assignment-5-8.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+
+}
+.assign-4-shape-4
+{
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 25% 25%;
+    background-image: url(css-assignment-5-8.png);
+    background-position: bottom right
+    ;
+
+}
